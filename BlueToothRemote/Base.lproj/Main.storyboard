@@ -65,7 +65,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="spin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lt6-Ec-iGK"/>
+                                    <action selector="spin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bq5-cM-aDI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="07H-hl-VYE">
@@ -86,11 +86,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Vsy-lW-FRq">
+                            <slider opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.01" maxValue="0.98999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="Vsy-lW-FRq">
                                 <rect key="frame" x="14" y="466" width="347" height="31"/>
                                 <connections>
                                     <action selector="speed:" destination="BYZ-38-t0r" eventType="valueChanged" id="nlw-ea-Rec"/>
-                                    <action selector="spin:" destination="BYZ-38-t0r" eventType="valueChanged" id="Fht-hd-o7f"/>
                                 </connections>
                             </slider>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rzZ-8w-Qij">
