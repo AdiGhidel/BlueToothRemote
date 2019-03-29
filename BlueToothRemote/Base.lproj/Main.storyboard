@@ -74,7 +74,6 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="back:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GcQ-Oz-TwP"/>
                                     <action selector="left:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Ve-hy-PeL"/>
                                 </connections>
                             </button>
@@ -210,7 +209,6 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="back:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R01-tj-R9L"/>
                                     <action selector="right:" destination="BYZ-38-t0r" eventType="touchUpInside" id="147-od-Z5M"/>
                                 </connections>
                             </button>
