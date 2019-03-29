@@ -117,11 +117,16 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
     @IBAction func right90(_ sender: Any) {
         sendMessageToDevice("right90");
     }
-
     @IBAction func spin(_ sender: Any) {
         sendMessageToDevice("spin");
     }
-    
+    @IBAction func left(_ sender: Any) {
+        sendMessageToDevice("left");
+    }
+    @IBAction func right(_ sender: Any) {
+        sendMessageToDevice("right");
+    }
+
     @IBAction func speed(_ sender: Any) {
         sendMessageToDevice("\(speedOutlet!.value)");
     }
@@ -156,4 +161,11 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
             }
         }
     }
+}
+extension UIView {
+    func roundCorners(cornerRadius: Double) {
+        self.layer.cornerRadius = CGFloat(cornerRadius)
+        self.clipsToBounds = true
+    }
+    
 }

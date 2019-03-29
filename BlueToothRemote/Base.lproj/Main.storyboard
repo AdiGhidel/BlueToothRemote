@@ -19,63 +19,119 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pih-7K-cxC">
-                                <rect key="frame" x="164" y="188" width="47" height="36"/>
+                                <rect key="frame" x="158" y="188" width="59" height="36"/>
+                                <color key="backgroundColor" red="1" green="0.22270830650000001" blue="0.18120177970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <color key="tintColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="contentEdgeInsets" minX="6" minY="6" maxX="6" maxY="6"/>
                                 <state key="normal" title="Stop">
-                                    <color key="titleColor" red="1" green="0.05083666099558537" blue="0.068624459429876938" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="stop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3CN-2B-eXq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Qu-6O-oU3">
-                                <rect key="frame" x="163" y="272" width="49" height="36"/>
+                                <rect key="frame" x="157" y="272" width="61" height="36"/>
+                                <color key="backgroundColor" red="0.95523184537887573" green="0.61814146626560174" blue="0.083900426363355082" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <color key="tintColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="contentEdgeInsets" minX="6" minY="6" maxX="6" maxY="6"/>
                                 <state key="normal" title="Back">
-                                    <color key="titleColor" red="1" green="0.50432730875311149" blue="0.015604003341758266" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                    <color key="titleShadowColor" red="1" green="0.49676240149282103" blue="0.15549947779127993" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="back:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TVh-yR-jXX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jf-Af-pAc">
-                                <rect key="frame" x="52" y="188" width="68" height="36"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1hr-7c-YLK">
+                                <rect key="frame" x="57" y="188" width="60" height="36"/>
+                                <color key="backgroundColor" red="0.95523184537887573" green="0.61814146626560174" blue="0.083900426363355082" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="Left90">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="contentEdgeInsets" minX="6" minY="6" maxX="6" maxY="6"/>
+                                <state key="normal" title="Left">
+                                    <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                    <color key="titleShadowColor" red="1" green="0.49676240149282103" blue="0.15549947779127993" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="left90:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O5h-82-eN9"/>
+                                    <action selector="back:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GcQ-Oz-TwP"/>
+                                    <action selector="left:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Ve-hy-PeL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3oS-fk-S3k">
-                                <rect key="frame" x="258" y="188" width="81" height="36"/>
+                                <rect key="frame" x="233" y="381" width="93" height="36"/>
+                                <color key="backgroundColor" red="0.4177142911294921" green="0.4170449764313427" blue="0.42873623704663211" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <color key="tintColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="contentEdgeInsets" minX="6" minY="6" maxX="6" maxY="6"/>
                                 <state key="normal" title="Right90">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="right90:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EHt-yM-Fl1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Czo-gO-jbj">
-                                <rect key="frame" x="165" y="381" width="45" height="36"/>
+                                <rect key="frame" x="159" y="381" width="57" height="36"/>
+                                <color key="backgroundColor" red="0.4177142911294921" green="0.4170449764313427" blue="0.42873623704663211" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <color key="tintColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="contentEdgeInsets" minX="6" minY="6" maxX="6" maxY="6"/>
                                 <state key="normal" title="Spin">
-                                    <color key="titleColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                    <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="spin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bq5-cM-aDI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="07H-hl-VYE">
-                                <rect key="frame" x="146.66666666666666" y="98" width="82" height="36"/>
-                                <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="140.66666666666666" y="106" width="94" height="36"/>
+                                <color key="backgroundColor" red="0.95523184537887573" green="0.61814146626560174" blue="0.083900426363355082" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <color key="tintColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="contentEdgeInsets" minX="6" minY="6" maxX="6" maxY="6"/>
                                 <state key="normal" title="Forward">
-                                    <color key="titleColor" red="1" green="0.50432730875311149" blue="0.015604003341758266" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                    <color key="titleShadowColor" red="1" green="0.49676240149282103" blue="0.15549947779127993" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="forward:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PBF-7U-HfE"/>
                                 </connections>
@@ -85,6 +141,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </label>
                             <slider opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.01" maxValue="0.98999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="Vsy-lW-FRq">
                                 <rect key="frame" x="14" y="466" width="347" height="31"/>
@@ -112,26 +174,73 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jf-Af-pAc">
+                                <rect key="frame" x="57" y="381" width="80" height="36"/>
+                                <color key="backgroundColor" red="0.4177142911294921" green="0.4170449764313427" blue="0.42873623704663211" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <color key="tintColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="contentEdgeInsets" minX="6" minY="6" maxX="6" maxY="6"/>
+                                <state key="normal" title="Left90">
+                                    <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="left90:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O5h-82-eN9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mLl-Pf-PvQ">
+                                <rect key="frame" x="258" y="188" width="71" height="36"/>
+                                <color key="backgroundColor" red="0.95523184537887573" green="0.61814146626560174" blue="0.083900426363355082" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <color key="tintColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="contentEdgeInsets" minX="6" minY="6" maxX="6" maxY="6"/>
+                                <state key="normal" title="Right">
+                                    <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                    <color key="titleShadowColor" red="1" green="0.49676240149282103" blue="0.15549947779127993" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="back:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R01-tj-R9L"/>
+                                    <action selector="right:" destination="BYZ-38-t0r" eventType="touchUpInside" id="147-od-Z5M"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="0jf-Af-pAc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="57" id="1Kr-45-c17"/>
+                            <constraint firstItem="mLl-Pf-PvQ" firstAttribute="leading" secondItem="pih-7K-cxC" secondAttribute="trailing" constant="41" id="8RG-tq-Llf"/>
+                            <constraint firstItem="0jf-Af-pAc" firstAttribute="baseline" secondItem="Czo-gO-jbj" secondAttribute="baseline" id="AXZ-Js-Q25"/>
                             <constraint firstItem="Vsy-lW-FRq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="DYr-kD-Dtq"/>
                             <constraint firstItem="Czo-gO-jbj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fg0-dR-OjW"/>
-                            <constraint firstItem="07H-hl-VYE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="54" id="IFr-gI-fZO"/>
+                            <constraint firstItem="07H-hl-VYE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="IFr-gI-fZO"/>
                             <constraint firstItem="pih-7K-cxC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OGK-a1-uDH"/>
-                            <constraint firstItem="3oS-fk-S3k" firstAttribute="leading" secondItem="pih-7K-cxC" secondAttribute="trailing" constant="47" id="Off-t8-59j"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vsy-lW-FRq" secondAttribute="trailing" constant="16" id="QZm-ae-DwN"/>
+                            <constraint firstItem="3oS-fk-S3k" firstAttribute="leading" secondItem="Czo-gO-jbj" secondAttribute="trailing" constant="17" id="YFX-ws-ioh"/>
                             <constraint firstItem="4Qu-6O-oU3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="You-Rp-4Lo"/>
-                            <constraint firstItem="pih-7K-cxC" firstAttribute="top" secondItem="07H-hl-VYE" secondAttribute="bottom" constant="54" id="bVX-AT-uQO"/>
+                            <constraint firstItem="1hr-7c-YLK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="57" id="YxQ-vV-Bce"/>
+                            <constraint firstItem="1hr-7c-YLK" firstAttribute="centerX" secondItem="0jf-Af-pAc" secondAttribute="centerX" constant="-10" id="ZCU-GB-D86"/>
+                            <constraint firstItem="pih-7K-cxC" firstAttribute="top" secondItem="07H-hl-VYE" secondAttribute="bottom" constant="46" id="bVX-AT-uQO"/>
                             <constraint firstItem="OJF-7M-khA" firstAttribute="top" secondItem="Czo-gO-jbj" secondAttribute="bottom" constant="31" id="cW2-9h-rco"/>
                             <constraint firstItem="Czo-gO-jbj" firstAttribute="top" secondItem="4Qu-6O-oU3" secondAttribute="bottom" constant="73" id="cXQ-iU-DAD"/>
+                            <constraint firstItem="1hr-7c-YLK" firstAttribute="baseline" secondItem="pih-7K-cxC" secondAttribute="baseline" id="dXb-Dx-Jqv"/>
                             <constraint firstItem="Vsy-lW-FRq" firstAttribute="top" secondItem="Czo-gO-jbj" secondAttribute="bottom" constant="49" id="dtU-Cm-2Cc"/>
+                            <constraint firstItem="3oS-fk-S3k" firstAttribute="baseline" secondItem="Czo-gO-jbj" secondAttribute="baseline" id="e6l-hp-ush"/>
+                            <constraint firstItem="pih-7K-cxC" firstAttribute="leading" secondItem="1hr-7c-YLK" secondAttribute="trailing" constant="41" id="egE-D0-vN1"/>
                             <constraint firstItem="07H-hl-VYE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fHa-Jq-snM"/>
                             <constraint firstItem="OJF-7M-khA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fqe-gI-aVt"/>
                             <constraint firstItem="4Qu-6O-oU3" firstAttribute="top" secondItem="pih-7K-cxC" secondAttribute="bottom" constant="48" id="lld-zH-OEO"/>
-                            <constraint firstItem="3oS-fk-S3k" firstAttribute="top" secondItem="07H-hl-VYE" secondAttribute="bottom" constant="54" id="lwb-We-Fik"/>
-                            <constraint firstItem="0jf-Af-pAc" firstAttribute="top" secondItem="07H-hl-VYE" secondAttribute="bottom" constant="54" id="t48-Jc-uf8"/>
-                            <constraint firstItem="pih-7K-cxC" firstAttribute="leading" secondItem="0jf-Af-pAc" secondAttribute="trailing" constant="44" id="w6G-ct-CQz"/>
+                            <constraint firstItem="mLl-Pf-PvQ" firstAttribute="baseline" secondItem="pih-7K-cxC" secondAttribute="baseline" id="sa2-n7-gtL"/>
+                            <constraint firstItem="mLl-Pf-PvQ" firstAttribute="centerX" secondItem="3oS-fk-S3k" secondAttribute="centerX" constant="14" id="spS-TK-NSX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -142,7 +251,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-79.200000000000003" y="133.5832083958021"/>
+            <point key="canvasLocation" x="-79.200000000000003" y="133.00492610837438"/>
         </scene>
     </scenes>
 </document>
